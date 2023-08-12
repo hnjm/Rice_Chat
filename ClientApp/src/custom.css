@@ -1,0 +1,41 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.send-message{
+    width: 100%;
+}
+
+.message-list {
+    flex: 1;
+    height: 70vh;
+    max-height: 70vh;
+    /* This attribute lets the textbox get the scrollbar feature */
+    overflow-y: auto;
+    border: 1px solid black;
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.message {
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 8px;
+}
+
+.chatroom {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+}
